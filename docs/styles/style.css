@@ -14,6 +14,11 @@ body{
     align-items: center;
     background-color: white;
 }
+.name{
+    display: flex;
+    flex-direction: row;
+    font-size: 1.4em;
+}
 .contacts{
     display: flex;
     flex-direction: row;
@@ -24,13 +29,13 @@ body{
     padding: 0.3em 0.8em 0.3em 0.8em;
     border-radius: 7%;
     background-color: cadetblue;
-    align-items: center;
+
 
 }
 .contacts div a{
     color:white;
     text-decoration: none;
-    align-items: center;
+
 }
 
 .contenido {
@@ -45,7 +50,7 @@ body{
     flex-direction: row;
     display: flex;
     justify-content: space-around;
-    border: black 1px solid;
+    margin-top: 2em;
 
 }
 .project{
