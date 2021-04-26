@@ -33,7 +33,7 @@ function centercircle() {
     var circle = document.querySelector("#path852");
     var length = circle.getTotalLength();
     //set CSS properties up
-    circle.style.stroke = '#00adb9';
+    circle.style.stroke = '#03181a';
     circle.style.opacity = "0"
     circle.getBoundingClientRect();
     //set transition up
@@ -52,7 +52,7 @@ function paths() {
         //set CSS properties up
         element.style.strokeDasharray = length + ' ' + length;
         element.style.strokeDashoffset = length;
-        element.style.stroke = "#00adb9"
+        element.style.stroke = "#03181a"
         element.getBoundingClientRect();
         //set transition up
         element.style.transition = 'stroke-dashoffset 2s ease-out';
